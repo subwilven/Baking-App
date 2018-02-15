@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="no_video">No Video Found</string>
+    <string name="app_widget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+</resources>

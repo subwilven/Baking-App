@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context="com.example.android.bakingapp.StepDetailsFragment">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/exo_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="0.4"
+        android:elevation="2dp">
+
+    </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+    <ImageView
+        android:id="@+id/iv_step_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_step_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_next_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button_background"
+            android:text="Next"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_prev_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button_background"
+            android:text="previous"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
