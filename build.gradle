@@ -17,7 +17,7 @@ allprojects {
         jcenter()
         maven {
             url "https://maven.google.com"
-        }t
+        }
     }
 }
 

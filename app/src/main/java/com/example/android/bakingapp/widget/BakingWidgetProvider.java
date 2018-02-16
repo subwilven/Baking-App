@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.widget.RemoteViews;
 
 import com.example.android.bakingapp.R;
-import com.example.android.chatapp.R;
 /**
  * Implementation of App Widget functionality.
  */
