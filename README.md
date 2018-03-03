@@ -10,6 +10,13 @@ In this project i've learned:
  * Using a third-party library in your app.
  * Using Fragments to create a responsive design that works on phones and tablets.
 
+# Screens
+![Screenshot](https://github.com/subwilven/Baking-App/blob/master/screens/phone_main.PNG)
+![Screenshot](https://github.com/subwilven/Baking-App/blob/master/screens/phone_recipe_details.PNG)
+![Screenshot](https://github.com/subwilven/Baking-App/blob/master/screens/phone_setp_details.PNG)
+![Screenshot](https://github.com/subwilven/Baking-App/blob/master/screens/tablet_main.PNG)
+![Screenshot](https://github.com/subwilven/Baking-App/blob/master/screens/tablet_details.PNG)
+
  # Libraries
  * [Butterknife](https://github.com/JakeWharton/butterknife)
  * [Picasso](https://github.com/square/picasso)
