@@ -66,7 +66,7 @@ public class RecipesFragment extends Fragment {
 
         recyclerView.setAdapter(recipesAdapter);
         getIdlingResource();
-        FetchRecipesData fetchRecipesData = new FetchRecipesData(new FetchRecipesData.CallBack() {
+        FetchRecipesData fetchRecipesData = new FetchRecipesData(getContext(),new FetchRecipesData.CallBack() {
             @Override
             public void handleInResult(ArrayList<Recipe> recipes) {
                 recipesAdapter.swapData(recipes);

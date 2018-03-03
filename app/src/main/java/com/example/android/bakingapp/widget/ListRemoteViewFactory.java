@@ -36,7 +36,7 @@ public class ListRemoteViewFactory implements RemoteViewsService.RemoteViewsFact
         int newRecipeID=Utility.getRecentVisitedRecipeID(mContext);//to check if load the data or not
         if(mIngredientsArray==null||mIngredientsArray.size()==0||mRecipeID!=newRecipeID) {//execute only when there no data or there is a new recipe id
             mRecipeID=newRecipeID;
-            FetchRecipesData fetchRecipesData = new FetchRecipesData(new FetchRecipesData.CallBack() {
+            FetchRecipesData fetchRecipesData = new FetchRecipesData(mContext,new FetchRecipesData.CallBack() {
                 @Override
                 public void handleInResult(ArrayList<Recipe> recipes) {
                     mRecipe = recipes.get(mRecipeID - 1);
