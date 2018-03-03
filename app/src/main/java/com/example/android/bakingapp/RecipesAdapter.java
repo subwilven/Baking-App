@@ -80,7 +80,7 @@ public class RecipesAdapter extends RecyclerView.Adapter<RecipesAdapter.RecipeVi
             if (url.isEmpty() || url.equals("")) {
                 recipeImage.setImageResource(R.drawable.eating_everything);
             } else {
-                Picasso.with(mContext).load(url).resize(250,200).into(recipeImage);
+                Picasso.with(mContext).load(url).resize(250,350).into(recipeImage);
             }
 
         }
